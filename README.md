@@ -1,1 +1,1 @@
-# docker-wordpress
+Wordpress with docker-compose common enviroment

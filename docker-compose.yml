@@ -18,9 +18,8 @@ services:
     environment:
       WORDPRESS_DB_HOST: db:3306
     env_file: .env
-      volumes:
+    volumes:
       # - [ホストPCのディレクトリの場所]:[仮想環境内で参照させるディレクトリの場所]
       - ../myThemeDir/:/var/www/html/wp-content/themes/myTheme
-
 volumes:
   db_data:
